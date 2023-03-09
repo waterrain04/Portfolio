@@ -30,12 +30,12 @@ import movie from '../images/movie_pic.png';
   }
 
   const Project = ({title,src,description,link1,link2}) =>{
-      const overlayStyle =`absolute h-full w-full opacity-0 hover:opacity-100  bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue transition-opacity duration-300 ease-in`
+      const overlayStyle =`absolute h-full w-full opacity-0 hover:opacity-100  bg-grey z-30 flex flex-col justify-center items-center overflow-hidden text-center p-16 text-deep-blue transition-opacity duration-300 ease-in`
       return(
         <motion.div variants={projectVariant} className="relative">
           <div className={overlayStyle}>
-            <p className='text-2xl font-semibold font-playfair text-black'>{title}</p>
-            <p className='font-playfair'>{description}</p>
+            <p className='text-xl font-semibold font-playfair text-black'>{title}</p>
+            <p className='font-playfair text-sm'>{description}</p>
             <p></p>
             <div className='mt-4'>
             <button className='mr-4'><a href={link1}  target="_blank"><BiLinkAlt size={30}/></a></button>

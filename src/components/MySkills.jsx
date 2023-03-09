@@ -51,12 +51,12 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <AiFillHtml5 className="mx-auto" size={100}/>
+          <AiFillHtml5 className="mx-auto hover:scale-105" size={100}/>
         </motion.div>
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10 mx-auto"
+          className="md:w-1/3 mt-10 mx-auto hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -66,12 +66,12 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <SiCss3  className="mx-auto"size={100}/>
+          <SiCss3  className="mx-auto hover:scale-105"size={100}/>
         </motion.div>
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3 mt-10 hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -81,13 +81,13 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <SiJavascript className="mx-auto" size={100}/>
+          <SiJavascript className="mx-auto hover:scale-105" size={100}/>
 
 
         </motion.div>
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3 mt-10 hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -97,12 +97,12 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <FaReact className="mx-auto text-yellow" size={100}/>
+          <FaReact className="mx-auto text-yellow hover:scale-105" size={100}/>
         </motion.div>
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3 mt-10 hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -112,12 +112,12 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <SiTailwindcss className="mx-auto" size={100}/>
+          <SiTailwindcss className="mx-auto hover:scale-105" size={100}/>
         </motion.div>
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3 mt-10 hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -127,12 +127,12 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <TbBrandFramerMotion className='mx-auto' size={100}/>
+          <TbBrandFramerMotion className='mx-auto hover:scale-105' size={100}/>
         </motion.div>
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3 mt-10 hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -142,7 +142,7 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <FaGitAlt className='mx-auto' size={100}/>
+          <FaGitAlt className='mx-auto hover:scale-105' size={100}/>
         </motion.div>
 
         
