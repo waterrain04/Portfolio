@@ -51,7 +51,7 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <AiFillHtml5 className="mx-auto hover:scale-105" size={100}/>
+          <AiFillHtml5 className="mx-auto hover:scale-105" size={120}/>
         </motion.div>
 
         {/* INNOVATIVE */}

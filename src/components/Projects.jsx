@@ -6,6 +6,7 @@ import {FaGithub} from 'react-icons/fa'
 import retro from '../images/retro-game.png'
 import defi from '../images/mydefi.png';
 import movie from '../images/movie_pic.png';
+import grocery from '../images/grocerylist.png'
 
   const container = {
     hidden: {
@@ -43,7 +44,7 @@ import movie from '../images/movie_pic.png';
             </div>
 
           </div>
-          <img src={src} alt="" />
+          <img className=""src={src} alt="" />
 
         </motion.div>
       )
@@ -91,7 +92,7 @@ const Projects = () => {
         >
           {/*ROW 1 */}
           <div
-            className='flex justify-center text-center items-center p-10 bg-yellow  text-2xl font-playfair font-semibold'
+            className='flex justify-center text-center items-center p-10 bg-transparent border-2 border-yellow  text-2xl font-playfair font-semibold'
           >
             BEAUTIFUL USER INTERFACES
           </div>
@@ -99,11 +100,11 @@ const Projects = () => {
           <Project title="DEFI LANDING PAGE" src={defi} link1="https://waterrain04.github.io/landing-defi/" link2="https://github.com/waterrain04/landing-defi"description="Built using the popular frontend frameworks of Tailwind and React, our website is optimized for performance and responsiveness, ensuring that it looks great and works seamlessly across all devices, from desktops to smartphones.
 
 " />
-
           {/*ROW2 */}
           <Project title="MOVIE APP" src={movie} link1="https://waterrain04.github.io/movie-app/" link2="https://github.com/waterrain04/movie-app" description="This is a movie website built using React and React Router DOM, which uses a movie database API to display real-time movie data."/>
+          <Project title="GROCERY LIST" src={grocery} link1="https://waterrain04.github.io/Grocery/" link2="https://github.com/waterrain04/Grocery" description="A grocery list application that allows users to add, delete, and search for items. It was created using React and styled with Tailwind CSS."/>
           <div
-            className='flex justify-center text-center items-center p-10 bg-yellow text-2xl font-playfair font-semibold'
+            className='flex justify-center text-center items-center p-10 bg-transparent border-2 border-yellow text-2xl font-playfair font-semibold'
           >
             SMOOTH USER EXPERIENCE
           </div>
