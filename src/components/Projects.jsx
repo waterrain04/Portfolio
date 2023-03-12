@@ -53,7 +53,7 @@ import grocery from '../images/grocerylist.png'
 const Projects = () => {
   return (
 
-      <section id="projects" className="pt-48 pb-48">
+      <section id="projects" className="my-48">
         {/* HEADINGS */}
         <motion.div
           className="md:w-2/4 mx-auto text-center"

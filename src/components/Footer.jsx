@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='h-[auto] bg-transparent'>
       <div className='w-5/6 mx-auto flex items-center justify-between gap-4'>
-        <SocialMediaIcons/>
+        <SocialMediaIcons className="flex-col"/>
         <p className='font-playfair font-semibold text-2xl'>JOSHUA GEMENTIZA</p>
         <p className='font-playfair font-semibold text-1xl'>&copy;2022. All Rights Reserved</p>
       </div>

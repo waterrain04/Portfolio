@@ -50,7 +50,7 @@ const Contact = () => {
 
     return (
 
-      <section id="contact" className='py-48'>
+      <section id="contact" className='my-20'>
 
         {/*HEADINGS */}
         
@@ -66,7 +66,7 @@ const Contact = () => {
           }}
         >
           <div>
-          <p className="font-playfair font-semibold text-4xl mb-5">
+          <p className="font-playfair font-semibold text-7xl mb-5">
           <span className="text-yellow">LET'S GET</span> IN TOUCH
           </p>
 

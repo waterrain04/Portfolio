@@ -25,7 +25,6 @@ function App() {
     inactive: { opacity: 0, y: 50 }
   };
   useEffect(() => {
-    
     const handleScroll = () => {
       if (window.scrollY === 0) {
         setIsTopOfPage(true);
@@ -36,6 +35,7 @@ function App() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
 
   useEffect (()=>{
     setLoading(true);
@@ -84,7 +84,7 @@ function App() {
             onViewportEnter={() => setSelectedPage("about")}
           >
           <AboutMe />
-          </motion.div>
+          </motion.div> 
         </div>
         {/* <LineGradient /> */}
         <div className="w-5/6 mx-auto md:h-full ">

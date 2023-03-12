@@ -9,11 +9,12 @@ import { FaReact } from 'react-icons/fa'
 import { SiTailwindcss } from 'react-icons/si'
 import {TbBrandFramerMotion} from 'react-icons/tb'
 import { FaGitAlt } from 'react-icons/fa'
+import Marquee from 'react-fast-marquee'
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className=" pb-24 ">
       {/* HEADER AND IMAGE SECTION */}
       <div className="gap-16 mt-32">
         <motion.div
@@ -27,21 +28,22 @@ const MySkills = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-5 ">
+          <p className="font-playfair font-semibold text-7xl mb-5 ">
             MY <span className="text-yellow">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-        <p className='font-playfair  mt-4 leading-8 text-xl'>
+        <p className='font-sans  mt-4 leading-8 text-xl'>
         As a front-end developer, I specialize in HTML, CSS, and JavaScript, with experience in React, Tailwind, Framer Motion, and Git. I possess strong problem-solving and communication skills, allowing me to effectively collaborate with cross-functional teams and clients to deliver high-quality web development work.</p>
         </motion.div>
 
       </div>
 
       {/* SKILLS */}
-      <div className=" md:flex md:justify-center mt-16 gap-32 text-yellow">
-        {/* EXPERIENCE */}
+      <div className=" md:flex md:justify-center mt-16 gap-32 text-yellow ">
+        {/* EXPERIENCE */} 
+        <Marquee direction="left" gradient={false} speed={50} style={{overflow:'hidden'}}>
         <motion.div
-          className="md:w-1/3 mt-10 "
+          className="md:w-1/3 mt-10 mr-10 hover:scale-110"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -56,7 +58,7 @@ const MySkills = () => {
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10 mx-auto hover:scale-110"
+          className="md:w-1/3 mt-10 mx-auto hover:scale-110 mr-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -71,7 +73,7 @@ const MySkills = () => {
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10 hover:scale-110"
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -87,7 +89,7 @@ const MySkills = () => {
         </motion.div>
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10 hover:scale-110"
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -102,7 +104,7 @@ const MySkills = () => {
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10 hover:scale-110"
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -117,7 +119,7 @@ const MySkills = () => {
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10 hover:scale-110"
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -132,7 +134,7 @@ const MySkills = () => {
 
           {/* INNOVATIVE */}
           <motion.div
-          className="md:w-1/3 mt-10 hover:scale-110"
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -145,7 +147,7 @@ const MySkills = () => {
           <FaGitAlt className='mx-auto hover:scale-105' size={100}/>
         </motion.div>
 
-        
+        </Marquee>
       </div>
     </section>
   );

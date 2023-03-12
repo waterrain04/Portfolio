@@ -12,7 +12,7 @@ function handleDownloadClick() {
 const AboutMe = () => {
   return (
     <div>
-      <section id="about" className="pt-32 pb-16">
+      <section   id="about" className="my-32 md:py-32 lg:py-32 xl:py-32 2xl:py-32">
       {/* HEADING */}
       <motion.div
         className="md:w-2/3 md:text-left"
@@ -25,11 +25,11 @@ const AboutMe = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-white">
+        <p className="font-playfair font-semibold text-7xl mb-5 text-white">
           ABOUT <span className='font-playfair font-semibold text-yellow'>ME</span>
         </p>
         <LineGradient width=" w-2/5" />
-          <p className="mt-10 font-playfair text-xl">
+          <p className="mt-10 font-sans text-xl">
             Hi, I'm Joshua Gementiza, a web developer with a passion for building innovative, user-friendly web experiences. I specialize in front-end development, with expertise in HTML, CSS, and JavaScript, as well as experience working with popular front-end frameworks and libraries like React and Framer Motion.
             <br />
             <br />
