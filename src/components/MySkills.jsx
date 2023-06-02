@@ -35,7 +35,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
         <p className='font-sans  mt-4 leading-8 text-xl'>
-        As a front-end developer, I specialize in HTML, CSS, and JavaScript, with experience in React, Tailwind, Framer Motion, and Git. I possess strong problem-solving and communication skills, allowing me to effectively collaborate with cross-functional teams and clients to deliver high-quality web development work.</p>
+        I specialize in front-end development with expertise in HTML, CSS, JavaScript, React, Tailwind, and Framer Motion. I have strong problem-solving and communication skills, enabling effective collaboration with cross-functional teams and clients. Additionally, I possess knowledge in back-end development using Node.js, Express, and MongoDB, allowing me to work on full-stack web development projects and create end-to-end web applications..</p>
         </motion.div>
 
       </div>
