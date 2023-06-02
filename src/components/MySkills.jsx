@@ -43,7 +43,7 @@ const MySkills = () => {
       {/* SKILLS */}
       <div className=" md:flex md:justify-center mt-16 gap-32 text-yellow ">
         {/* EXPERIENCE */} 
-        <Marquee direction="left" gradient={false} speed={30} style={{overflow:'hidden'}}>
+        <Marquee direction="left" gradient={false} speed={25} style={{overflow:'hidden'}}>
         <motion.div
           className="md:w-1/3 mt-10 mr-10 hover:scale-110"
           initial="hidden"
@@ -178,7 +178,6 @@ const MySkills = () => {
         >
           <DiMongodb className='mx-auto hover:scale-105' size={100}/>
         </motion.div>
-        
         
 
         </Marquee>
