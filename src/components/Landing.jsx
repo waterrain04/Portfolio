@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SocialMediaIcons from '../pages/SocialMediaIcons'
 import profile from '../images/myprofile2.jpg'
 import * as FileSaver from 'file-saver';
-import myPDF from '../file/joshua_cvf.pdf';
+import myPDF from '../file/Latest_cv.pdf';
 
 function handleDownloadClick() {
   FileSaver.saveAs(myPDF, 'myPDF.pdf');
@@ -92,11 +92,11 @@ const Landing = ({setSelectedPage}) => {
           </AnchorLink>
           <AnchorLink
             className="rounded-r-sm bg-yellow py-0.5 pr-0.5"
-            href="joshua_cv.pdf"
-            download="joshua_cv.pdf"
+            href="Latest_cv.pdf"
+            download="Latest_cv.pdf"
           >
             <div onClick = {handleDownloadClick}className="bg-deep-blue hover:bg-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 text-xl font-playfair">
-             <a href="joshua_cv.pdf" download="joshua_cv.pdf">Download CV</a> 
+             <a href="Latest_cv.pdf" download="Latest_cv.pdf">Download CV</a> 
             </div>
           </AnchorLink>
         </motion.div>

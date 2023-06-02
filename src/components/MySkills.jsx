@@ -9,6 +9,8 @@ import { FaReact } from 'react-icons/fa'
 import { SiTailwindcss } from 'react-icons/si'
 import {TbBrandFramerMotion} from 'react-icons/tb'
 import { FaGitAlt } from 'react-icons/fa'
+import { FaNodeJs } from 'react-icons/fa'
+import {DiMongodb} from 'react-icons/di'
 import Marquee from 'react-fast-marquee'
 
 const MySkills = () => {
@@ -41,7 +43,7 @@ const MySkills = () => {
       {/* SKILLS */}
       <div className=" md:flex md:justify-center mt-16 gap-32 text-yellow ">
         {/* EXPERIENCE */} 
-        <Marquee direction="left" gradient={false} speed={50} style={{overflow:'hidden'}}>
+        <Marquee direction="left" gradient={false} speed={30} style={{overflow:'hidden'}}>
         <motion.div
           className="md:w-1/3 mt-10 mr-10 hover:scale-110"
           initial="hidden"
@@ -146,6 +148,38 @@ const MySkills = () => {
         >
           <FaGitAlt className='mx-auto hover:scale-105' size={100}/>
         </motion.div>
+        
+          {/* INNOVATIVE */}
+          <motion.div
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <FaNodeJs className='mx-auto hover:scale-105' size={100}/>
+        </motion.div>
+          
+          {/* INNOVATIVE */}
+          <motion.div
+          className="md:w-1/3 mt-10 hover:scale-110 mr-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <DiMongodb className='mx-auto hover:scale-105' size={100}/>
+        </motion.div>
+        
+        
 
         </Marquee>
       </div>

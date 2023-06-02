@@ -2,7 +2,7 @@ import React from 'react'
 import LineGradient from "../pages/LineGradient";
 import { motion } from "framer-motion";
 import * as FileSaver from 'file-saver';
-import myPDF from '../file/joshua_cvf.pdf';
+import myPDF from '../file/Latest_cv.pdf';
 function handleDownloadClick() {
   FileSaver.saveAs(myPDF, 'myPDF.pdf');
 }
