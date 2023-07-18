@@ -101,7 +101,7 @@ const Projects = () => {
 
 " />
           {/*ROW2 */}
-          <Project title="MOVIE APP" src={movie} link1="https://waterrain04.github.io/movie-app/" link2="https://github.com/waterrain04/movie-app" description="This is a movie website built using React and React Router DOM, which uses a movie database API to display real-time movie data."/>
+          <Project  title="MOVIE APP" src={movie} link1="https://chat-talk.onrender.com/" link2="https://github.com/waterrain04/mern-chat-talk" description="'Chat-Talk' is a real-time chat application built with the MERN stack and socket.io, enabling instant messaging and seamless communication between users."/>
           <Project title="GROCERY LIST" src={grocery} link1="https://waterrain04.github.io/Grocery/" link2="https://github.com/waterrain04/Grocery" description="A grocery list application that allows users to add, delete, and search for items. It was created using React and styled with Tailwind CSS."/>
           <div
             className='flex justify-center text-center items-center p-10 bg-transparent border-2 border-yellow text-2xl font-playfair font-semibold'
