@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a807348e.css",
-    "main.js": "/Portfolio/static/js/main.e0df3fdf.js",
-    "static/media/movie_pic.png": "/Portfolio/static/media/movie_pic.dfdd21b581a0ad02fa2f.png",
+    "main.js": "/Portfolio/static/js/main.68506190.js",
+    "static/media/myprofile2.jpg": "/Portfolio/static/media/myprofile2.95da02b24fe2fb8d14d3.jpg",
     "static/media/mydefi.png": "/Portfolio/static/media/mydefi.6de89bc9597fa8f9d2db.png",
     "static/media/Latest_cv.pdf": "/Portfolio/static/media/Latest_cv.ce06ca7e4bccc783675e.pdf",
+    "static/media/movie_pic.png": "/Portfolio/static/media/movie_pic.34f89c4a82b0cd058eee.png",
     "static/media/retro-game.png": "/Portfolio/static/media/retro-game.759f25b195ba79d54548.png",
-    "static/media/myprofile2.jpg": "/Portfolio/static/media/myprofile2.7313af377bbcd6ddef48.jpg",
     "static/media/grocerylist.png": "/Portfolio/static/media/grocerylist.a56733caf3bf96105c84.png",
     "index.html": "/Portfolio/index.html",
     "main.a807348e.css.map": "/Portfolio/static/css/main.a807348e.css.map",
-    "main.e0df3fdf.js.map": "/Portfolio/static/js/main.e0df3fdf.js.map"
+    "main.68506190.js.map": "/Portfolio/static/js/main.68506190.js.map"
   },
   "entrypoints": [
     "static/css/main.a807348e.css",
-    "static/js/main.e0df3fdf.js"
+    "static/js/main.68506190.js"
   ]
 }
